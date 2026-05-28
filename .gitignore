@@ -1,0 +1,38 @@
+# Ignore everything by default
+*
+
+# Keep this file
+!.gitignore
+
+# Keep my code folder
+!mycode/
+!mycode/**
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ignore all data/result folders anywhere
+**/data/
+**/data/**
+**/result/
+**/result/**
+
+# Ignore large data / model files anywhere
+*.mat
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.pkl
+
+# Ignore generated figures / documents
+*.eps
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
